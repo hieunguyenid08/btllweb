@@ -3,6 +3,11 @@
     padding: 0;
     border: 1px solid black;
 }
+@font-face {
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Raleway', sans-serif;
+    src: url(../Nuosu_SIL/NuosuSIL-Regular.ttf);
+}
 .main{
     height: 400vh;
 }
@@ -60,9 +65,14 @@ p{
 }
 input{
     display: flex;
-    font-size: 20px;
-    padding: 8px 30px;
+    font-size: 15px;
+    padding: 8px 15px;
     border-radius: 15px;
-    margin-top: -10px;
+    margin-top: -5px;
     color: black;
+}
+.range{
+    width: 100px;
+    padding: 5px 20px;
+    margin-top: -5px;
 }
