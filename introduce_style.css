@@ -1,0 +1,111 @@
+:root {
+    --text-color-1: white;
+}
+
+body {
+    margin: 0;
+    font-family: Pangea,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #231f20;
+    text-align: left;
+    background-color: #fff;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.site__recruitment {
+    padding: 30px 0;
+}
+
+.recruitment__abouts {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.recruiment__abouts-image img{
+    width: 500px;
+}
+
+.recruitment__abouts-content-heading {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.recruitment__abouts-content-description li {
+    display: list-item;
+    list-style: inside;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.recruitment__why {
+    background-color: gray;
+}
+
+.recruitment__why-content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1124px;
+    margin: 0 auto;
+}
+
+.recruitment__why-content-left {
+    width: 41.666%;
+    padding: 9px;
+    padding-right: 40px;
+}
+
+.recruitment__why-content-left-heading {
+    margin-bottom: 8px;
+    font-size: 35px;
+    height: 50px;
+    color: var(--text-color-1);
+}
+
+.recruitment__why-content-left-description p,b {
+    color: var(--text-color-1);
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.recruitment__why-content-right {
+    padding: 9px;
+    background-color: yellow;
+}
+
+.recruitment__why-content-right-title {
+    height: 30px;
+    color: #2f5acf;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.recruitment__why-content-right-policy ul,li {
+    margin: 0 0 8px;
+    list-style: decimal;
+    margin-left: 10px;
+}
