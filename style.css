@@ -308,99 +308,6 @@ footer {
   margin: 20px auto;
 }
 
-.footer {
-  max-width: 1320;
-  padding: 0 auto;
-  border-top: 1px solid var(--text-color);
-}
-
-.footer__container {
-  padding: 24px 0;
-  margin: 0 30px;
-}
-
-.footer__container-row {
-  width: 100%;
-  margin: 30px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer__container-row-section {
-  padding: 0 12px;
-  align-items: center;
-}
-
-.footer__container-row-section-title {
-  font-size: 24px;
-  margin-bottom: 8px;
-  font-weight: 500px;
-}
-
-.footer__container-row-section-item {
-  font-size: 20px;
-  margin-bottom: 8px;
-  color: var(--text-color-item-footer);
-}
-
-.footer__container-row-subscribe {
-  margin-bottom: 16px;
-  padding: 0 12px;
-}
-
-.footer__container-row-subscribe-title {
-  font-size: 24px;
-  color: var(--title-color-footer);
-  padding-bottom: 8px;
-}
-
-.footer__container-row-subscribe-description {
-  padding-bottom: 16px;
-  font-size: 16px;
-}
-
-.footer__container-row-subscribe-email {
-  display: flex;
-}
-
-.footer__container-row-subscribe-input{
-  border-radius: 13px;
-  margin-right: 6px;
-  padding: 1px;
-  border: 1px solid #ced4da;
-}
-
-.footer__container-row-subscribe-input::placeholder {
-  padding-left: 10px;
-}
-
-.footer__container-under {
-  width: 100%;
-  margin: 24px 0;
-  padding: 24px 0;
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid var(--text-color);
-}
-
-.footer__container-under-line {
-  border: 1px solid #8e8e8e;
-}
-
-.footer__container-under-description {
-  font-size: 16px;
-  font-weight: 400px;
-  padding-left: 12px;
-}
-
-.footer__container-under-media {
-  display: flex;
-}
-
-.fa-brands {
-  font-size: 30px;
-  margin: 0 10px;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 932px){
 .banner__content {
@@ -409,14 +316,6 @@ footer {
 
 .banner__content-title {
   font-size: 45px;
-}
-
-.header__menu {
-  display: none;
-}
-
-.header__menu--phone {
-  display: block;
 }
 
 .collection__title {
@@ -449,31 +348,11 @@ footer {
   font-size: 30px;
 }
 
-.footer {
-  display: none;
-}
-
-.header__menu {
-  display: none;
-}
-
-.header__menu--phone {
-  display: block;
-}
-
 .product__menu {
   width: 300px;
   padding: 20px;
   overflow-x: scroll;
 }
-/* 
-.product__menu-list {
-  width: 300px;
-}
-
-.product__menu-progress {
-  width: 300px;
-} */
 }
 
 

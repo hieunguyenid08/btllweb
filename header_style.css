@@ -96,3 +96,23 @@
   .header__actions-item {
     padding: 0 10px;
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 932px) {
+    .header__menu {
+      display: none;
+    }
+    
+    .header__menu--phone {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__menu {
+      display: none;
+    }
+    
+    .header__menu--phone {
+      display: block;
+    }
+  }

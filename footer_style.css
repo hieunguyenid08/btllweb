@@ -1,0 +1,134 @@
+:root {
+    --text-color: rgb(35, 31, 32);
+    --text-color-item-footer: #DCDCDC;
+    --title-color-footer: #212529;
+    --primary-color: rgb(255, 49, 2);
+    --text-color2: #8e8e8e;
+    --blue-color: #006CBC;
+    --blue-color2: #6495ED;
+    --white-color: #fff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  footer {
+    display: block;
+  }
+
+  .footer {
+    max-width: 1320;
+    padding: 0 auto;
+    border-top: 1px solid var(--text-color);
+  }
+  
+  .footer__container {
+    padding: 24px 0;
+    margin: 0 30px;
+  }
+  
+  .footer__container-row {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__container-row-section {
+    padding: 0 12px;
+    align-items: center;
+  }
+  
+  .footer__container-row-section-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 500px;
+  }
+  
+  .footer__container-row-section-item {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: var(--text-color-item-footer);
+  }
+  
+  .footer__container-row-subscribe {
+    margin-bottom: 16px;
+    padding: 0 12px;
+  }
+  
+  .footer__container-row-subscribe-title {
+    font-size: 24px;
+    color: var(--title-color-footer);
+    padding-bottom: 8px;
+  }
+  
+  .footer__container-row-subscribe-description {
+    padding-bottom: 16px;
+    font-size: 16px;
+  }
+  
+  .footer__container-row-subscribe-email {
+    display: flex;
+  }
+  
+  .footer__container-row-subscribe-input{
+    border-radius: 13px;
+    margin-right: 6px;
+    padding: 1px;
+    border: 1px solid #ced4da;
+  }
+  
+  .footer__container-row-subscribe-input::placeholder {
+    padding-left: 10px;
+  }
+  
+  .footer__container-under {
+    width: 100%;
+    margin: 24px 0;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--text-color);
+  }
+  
+  .footer__container-under-line {
+    border: 1px solid #8e8e8e;
+  }
+  
+  .footer__container-under-description {
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 12px;
+  }
+  
+  .footer__container-under-media {
+    display: flex;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer {
+        display: none;
+      }
+  }
