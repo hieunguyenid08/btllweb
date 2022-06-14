@@ -5,57 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header_style.css">
+    <link rel="stylesheet" href="./footer_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-      <div class="header__menu--phone">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-      <div class="header__logo">
-        <a href="/"><img class="header__logo-img" src="./images/logo-coolmate.png" alt="Logo Coolmate"></a>
-      </div>
-      <div class="header__menu">
-        <ul class="header__menu-list">
-          <li class="header__menu-item header__menu-item--focus">
-            <a class="header__menu-item-link" href="#">Outlet</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-item-link" href="#">
-            Đồ lót định kỳ</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-item-link" href="#">
-            Sản phẩm</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-item-link" href="#">
-            In áo công ty</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-item-link" href="./introduce.html">
-            Về Coolmate</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-item-link" href="#">
-            Chọn Size</a>
-          </li>
-        </ul>
-      </div>
-      <div class="header__actions">
-        <div class="header__actions-item">
-          <i class="headers_actions-item-icon fa-solid fa-magnifying-glass"></i>
-        </div>
-        <div class="header__actions-item">
-          <i class="headers_actions-item-icon fa-solid fa-user"></i>
-        </div>
-        <div class="header__actions-item">
-          <i class="headers_actions-item-icon fa-solid fa-bag-shopping"></i>
-        </div>
-      </div>
-    </header>
+    <?php include './include/header.php' ?>
 
     <!-- HERO SECTION -->
     <div class="hero">
@@ -189,61 +146,7 @@
     </div>
 
     <!-- FOOTER SECTION -->
-    <div class="footer">
-      <footer class="footer__container">
-        <div class="footer__container-row">
-          <div class="footer__container-row-section">
-            <h5 class="footer__container-row-section-title">Section</h5>
-            <ul class="footer__container-row-section-items">
-              <li class="footer__container-row-section-item"><a href="#">Home</a></li>
-              <li class="footer__container-row-section-item"><a href="#">Features</a></li>
-              <li class="footer__container-row-section-item"><a href="#">Pricing</a></li>
-              <li class="footer__container-row-section-item"><a href="#">FAQs</a></li>
-              <li class="footer__container-row-section-item"><a href="#">About</a></li>
-            </ul>
-          </div>
-          <div class="footer__container-row-section">
-            <h5 class="footer__container-row-section-title">Section</h5>
-            <ul class="footer__container-row-section-items">
-              <li class="footer__container-row-section-item"><a href="#">Home</a></li>
-              <li class="footer__container-row-section-item"><a href="#">Features</a></li>
-              <li class="footer__container-row-section-item"><a href="#">Pricing</a></li>
-              <li class="footer__container-row-section-item"><a href="#">FAQs</a></li>
-              <li class="footer__container-row-section-item"><a href="#">About</a></li>
-            </ul>
-          </div>
-          <div class="footer__container-row-section">
-            <h5 class="footer__container-row-section-title">Section</h5>
-            <ul class="footer__container-row-section-items">
-              <li class="footer__container-row-section-item"><a href="#">Home</a></li>
-              <li class="footer__container-row-section-item"><a href="#">Features</a></li>
-              <li class="footer__container-row-section-item"><a href="#">Pricing</a></li>
-              <li class="footer__container-row-section-item"><a href="#">FAQs</a></li>
-              <li class="footer__container-row-section-item"><a href="#">About</a></li>
-            </ul>
-          </div>
-          <div class="footer__container-row-subscribe">
-            <form>
-              <h5 class="footer__container-row-subscribe-title">Subscribe to our newsletter</h5>
-              <p class="footer__container-row-subscribe-description">Monthly digest of what's new and exciting from us.</p>
-              <div class="footer__container-row-subscribe-email">
-                <input id="newsletter1" type="text" class="footer__container-row-subscribe-input" placeholder="Email address">
-                <button class="btn btn--primary" type="button">Subscribe</button>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <div class="footer__container-under">
-          <p class="footer__container-under-description">© 2022 Company, Inc. All rights reserved.</p>
-          <ul class="footer__container-under-media">
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-          </ul>
-        </div>
-      </footer>
-    </div>
+    <?php include './include/footer.php' ?>
 
     <script src="app.js"></script>
     <!-- add cmt -->

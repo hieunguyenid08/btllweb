@@ -1,0 +1,118 @@
+:root {
+    --text-color: rgb(35, 31, 32);
+    --text-color-item-footer: #DCDCDC;
+    --title-color-footer: #212529;
+    --primary-color: rgb(255, 49, 2);
+    --text-color2: #8e8e8e;
+    --blue-color: #006CBC;
+    --blue-color2: #6495ED;
+    --white-color: #fff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0 30px;
+    font-size: 14px;
+  }
+  
+  .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 13px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 0 30px;
+    transition: all .2s;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--blue-color2);
+    color: #000;
+    border: 2px solid var(--blue-color2);
+  }
+  
+  .header__logo-img {
+    height: 30px;
+  }
+  
+  .header__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header__menu-item {
+    display: flex;
+    height: 50px;
+    padding: 0 15px;
+    align-items: center;
+  }
+  
+  .header__menu-item--focus > a {
+    color: var(--primary-color);
+  }
+  
+  .header__menu-item-link {
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .header__menu--phone {
+    display: none;
+  }
+  
+  .header__actions {
+    display: flex;
+    margin: 0 -10px;
+  }
+  
+  .header__actions-item {
+    padding: 0 10px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 932px) {
+    .header__menu {
+      display: none;
+    }
+    
+    .header__menu--phone {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__menu {
+      display: none;
+    }
+    
+    .header__menu--phone {
+      display: block;
+    }
+  }
